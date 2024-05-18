@@ -1,0 +1,429 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+.title {
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+::selection {
+  background: rgb(255, 249, 205);
+  color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  transition: all 0.3s ease-in 0s;
+}
+
+.nav-data {
+  display: flex;
+  margin-left: calc(5%);
+  align-items: center;
+}
+
+.nav-data>div>img {
+  max-height: 100%;
+  height: 50px;
+  background-size: cover;
+  float: left;
+}
+
+.control {
+  display: flex;
+}
+
+.nav-hr {
+  width: 90%;
+  opacity: 0.8;
+  margin-left: calc(5%);
+}
+
+.control {
+  position: absolute;
+  right: 10px;
+}
+
+.control>div {
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.section-img {
+  width: 100% !important;
+  background-size: cover !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.section1 {
+  background-image: url("https://www.solarproguide.com/wp-content/uploads/will-solar-panels-provide-power-during-an-outage-kosmos.jpeg");
+  background-attachment: fixed !important;
+  background-size: cover;
+}
+
+.section3 {
+  margin-top: 100px;
+  background-image: url("https://biion.com.mx/wp-content/uploads/2023/04/Biion_soy-_solar.jpg");
+  background-attachment: fixed !important;
+}
+
+.section6 {
+  margin-top: 100px;
+  background-image: url("https://wallpaperaccess.com/full/31189.jpg");
+  height: 60vh !important;
+  background-attachment: fixed !important;
+}
+
+.img-section {
+  width: 100%;
+  color: white;
+  font-size: 92px;
+  height: 700px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section2 {
+  background-color: rgb(244, 244, 244);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.section2>.sub-1 {
+  width: 324px;
+  margin: auto;
+  line-height: 1;
+  padding-top: 58px;
+}
+
+.sub-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-2>.sub-2-sub {
+  width: 94%;
+}
+
+.sub-2-sub>.sub-2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.sub-2-sub>.sub-2>div>img {
+  width: 100%;
+}
+
+.sub-2-sub>.sub-2>div {
+  width: 50%;
+  font-size: 27px;
+  padding: 30px;
+}
+
+.sub-2>div>.sub-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  width: 95%;
+  margin: auto;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item>img {
+  width: 100%;
+}
+
+.carousel {
+  /* height: 600px; */
+  overflow: hidden;
+}
+
+.carouselExampleIndicators>button {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 50% !important;
+  border: 2px solid black !important;
+}
+
+.carouselExampleIndicators {
+  position: relative;
+}
+
+.line-hiight {
+  line-height: 1.4;
+}
+
+section.section4 {
+  margin-top: 100px;
+}
+
+.section4>.sub-4>div>img {
+  width: 100%;
+}
+
+.section4>.sub-4>div {
+  width: 50%;
+}
+
+.sub-4 {
+  display: flex;
+}
+
+.solarinstall {
+  text-align: center;
+  font-size: 50px !important;
+}
+
+.stage1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stage1>div {
+  width: 50%;
+  height: 50%;
+  padding: 0px 30px;
+}
+
+.awer-data>div:first-child {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.awer-data>div:last-child {
+  font-size: 35px;
+}
+
+.awer-data {
+  display: inline-block;
+}
+
+.awer-data {
+  display: block;
+}
+
+.stage2 {
+  display: flex;
+}
+
+.stage2>div {
+  width: 50%;
+}
+
+.solar-panel-installation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solar-panel-installation>img {
+  width: 80%;
+}
+
+.stg {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+.stg>.num-part {
+  width: 20%;
+}
+
+.stg>.num-part>div:first-child {
+  width: 80px;
+  height: 80px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stg>.num-part>div:last-child {
+  width: 80px;
+  margin: 31px 0px 16px;
+  font-weight: 800;
+  rotate: 90deg;
+  color: darkorchid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.installation-stape {
+  margin-left: 20px;
+}
+
+.img-section {
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.section6 {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section6>button:hover {
+  background-color: white;
+  color: black;
+}
+
+.section6>button {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+}
+
+.cang-contact {
+  font-size: 50px;
+}
+
+.img-section>.btn {
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 64px;
+}
+
+.cang-contact {
+  display: flex;
+}
+
+.section-title {
+  margin-top: 66px;
+}
+
+.str-data {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.footer-data {
+  width: 100vw;
+  min-height: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#chang {
+  margin-left: 10px;
+  text-transform: lowercase;
+}
+
+.footer-data>div {
+  margin: auto;
+}
+
+.footer-data>div>div {
+  padding: 4px;
+}
+
+.header {
+  margin-top: 47px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .nav-data>div>img {
+    height: 30px;
+  }
+
+  /* nav end */
+  .sub-2>div>.sub-title {
+    font-size: 20px !important;
+  }
+
+  .sub-2>div>.line-hiight {
+    font-size: 17px !important;
+  }
+
+  .sub-2-sub>.sub-2 {
+    margin-top: 25px !important;
+  }
+
+  .img-section {
+    font-size: 60px !important;
+  }
+
+  .sub-2>div>.sub-title {
+    margin-bottom: 10px !important;
+  }
+
+  .sub-2-sub>.sub-2>div {
+    padding: 10px !important;
+  }
+
+  .section3 {
+    margin-top: 50px !important;
+  }
+
+  .img-section {
+    height: 600px !important;
+  }
+
+  section.section4 {
+    margin-top: 60px !important;
+  }
+
+  .solarinstall {
+    font-size: 43px !important;
+  }
+  .awer-data>div{
+    font-size: 50px !important;
+  }
+  .awer-data>div:last-child {
+    font-size: 25px !important;
+  }
+  hr{
+    margin: 0 !important;
+  }
+  .title{
+    line-height: 1.1;
+  }
+}
